@@ -1,0 +1,42 @@
+.pictures {
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .left {
+        padding-right: 0.5rem;
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .right {
+        padding-left: 0.5rem;
+        .btn {
+            text-align: right;
+            margin-bottom: 2rem;
+            button {
+                border: none;
+                padding: 10px 2rem;
+                color: white;
+                background-color: teal;
+                border-radius:5px; 
+                font-size: 18px;
+            }
+        }
+        .boxtxt {
+            min-height: 320px;
+            background-color: rgb(181, 172, 172);
+            font-size: 1.3rem;
+            padding: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 15px;
+            align-items: center;
+            p:nth-child(2) {
+                margin:4rem 0;
+                text-decoration: underline;
+              }
+        }
+    }
+}
